@@ -110,7 +110,7 @@ s_theta, s_cost = stochastic_gradient_descent(s_theta, train_X, train_Y, s_learn
 * Visualize the predicted (base model) and actual test labels 
 <p align=center><img src='images/preds_base.JPG'></img></p>
 
-* Generate predictions using regularized normal equations
+* Generate predictions using regularized normal equations.
 Since the dataset is wider than it is tall, a regularized normal equations might perform better in generating label predictions.
 ```python
 # set parameters
