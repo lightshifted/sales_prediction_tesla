@@ -131,7 +131,7 @@ PN2[np.where(PN2<0)] = 0
 * Visualize the predicted labels from regularized normal equations and actual test labels 
 <p align=center><img src='images/preds_normal_equation.JPG'></img></p>
 
-* Implement non-linear regression models (GLM, DT) and visualize predicted and actual labels
+* Implement non-linear regression models (GLM, DT) and visualize predicted and actual labels.
 ```python
 # GLM 
 import statsmodels.api as sm
